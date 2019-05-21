@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Brug klip</title>
+    <link href="generel.css" type="text/css" rel="stylesheet">
+</head>
+<body>
+    <div id="topBar">
+        <img src="pictures/topBarLogo.png" alt="Jesper's Torvekøkken logo" title="Jesper's Torvekøkken logo" />
+    </div>
+    <div id="overskriftBrugKlip">
+     <h1>Tryk på knappen for at bruge 1 klip</h1>
+    </div>
+    <div id="brugKlip">
+        <form action="klipBrugt.html" id="knappen">
+            <button>
+                Brug 1 klip
+            </button>
+        </form>
+    </div>
+    <div id="menu">
+        <form id="indexKnap" class="botKnap" action="index.html">
+            <button>
+             Kaffekort
+            </button>
+        </form>
+        <form id="buyClip" class="botKnap" action="buyClip.html">
+          <button>
+             Køb klip
+          </button>
+        </form>
+    </div>
+
+</body>
+</html>
+
+
+<script type="text/javascript">
+
+    knappen.addEventListener("click", (event)=>{
+        window.location.pathname = "/Systemudvikling/klipBrugt.html";
+    })
+
+</script>

@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Forside</title>
+    <link href="generel.css" type="text/css" rel="stylesheet">
+</head>
+<body>
+<div class="smartphone">
+    <div class="content">
+        <div style="width:100%;border:none;height:100%">
+    <div id="topBar">
+        <img src="pictures/topBarLogo.png" alt="Jesper's Torvekøkken logo" title="Jesper's Torvekøkken logo" />
+    </div>
+    <div id="overskriftIndex">
+        <h1>Kaffekort</h1>
+    </div>
+    <div id="duHar" class="omkringKlip">
+        <h3>Du har</h3>
+    </div>
+    <div id="antalKlip">
+        <h2 id="antalClip">
+            10
+        </h2>
+    </div>
+    <div id="tilbage" class="omkringKlip">
+        <h3>tilbage</h3>
+    </div>
+    <div id="brugKlip">
+        <form action="brugKlip.html" id="knappen">
+            <button>
+                Brug klip
+            </button>
+        </form>
+    </div>
+    <div id="menu">
+        <form id="buyClip" class="botKnap" action="buyClip.html">
+            <button>
+                Køb klip
+            </button>
+        </form>
+        <form id="omOs" class="botKnap" action="omOs.html">
+            <button>
+                Om os
+            </button>
+        </form>
+    </div>
+    </div>
+    </div>
+</div>
+</body>
+</html>
+
+<script type="text/javascript" src="kaffekort.js">;
+
+    /*
+
+    let fs = require('fs');
+
+    let data = fs.readFileSync('persons.json', "utf-8");
+    let persons = JSON.parse(data);
+
+    console.log(persons);
+
+    let kundeArr = [];
+
+    function Kunde (name, clip) {
+        this.name = name;
+        this.clip = clip;
+        kundeArr.push(this.name + this.clip);
+    }
+
+    let karsten = new Kunde ('Karsten', 10);
+
+    let antalKlip = document.querySelector("#antalClip");
+
+    let klipTilbage = document.createTextNode(karsten.clip);
+    antalKlip.appendChild(klipTilbage);
+
+
+    document.querySelector("#knappen").addEventListener("click", (e)=>{
+        brugKlip(karsten);
+        document.querySelector("#antalClip").innerHTML = "";
+        let antalKlip = document.createTextNode(karsten.clip);
+        document.querySelector("#antalClip").appendChild(antalKlip);
+    });
+
+
+
+    function brugKlip(kunde){
+        kunde.clip = kunde.clip - 1;
+    }
+
+    brugKlip(torre);
+*/
+
+</script>
+
